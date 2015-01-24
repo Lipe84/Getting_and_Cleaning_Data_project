@@ -33,5 +33,11 @@ Better names are now shown:
 - "frequency" replaces "f"
 - "Magnitude" replaces "Mag"
 - "Body" replaces "BodyBody"
-
 Units of measurements are the same of the original raw data
+
+## HOW THE SCRIPT WORKS
+The script's code is described with a lot of comments, so every step is clear. Also, during script's execution, on console you'll read what step the script is currently performing.
+Here a brief description.
+- starting from Working Directory, it checks if new folder is already present: if not, it will be created.
+- download raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip it into a new folder "UCI HAR Dataset"
+-- www
