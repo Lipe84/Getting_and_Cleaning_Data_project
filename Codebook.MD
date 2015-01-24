@@ -49,3 +49,4 @@ Here a brief description.
 - transforming the original number linked to Activity (1,2,3,4,5,6) with the correct name (WALKING, ...) and using them in the df "Data"
 - as said in the above paragraph, features' name are replaced with something more comprehensible
 - using "plyr" package to calculate the MEAN for each subject and each activity
+- creating the tidydata.txt with write.table command
