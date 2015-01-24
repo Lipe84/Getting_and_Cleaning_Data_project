@@ -1,3 +1,4 @@
+# ORIGINAL DATA CODEBOOK
 ## Raw data zip file
 Data used in this project are found in the following URL:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
@@ -19,3 +20,21 @@ For each record in the dataset it is provided:
 ## ID vars
 - subject: The participant ("subject") ID
 - activity: The label of the activity performed when the corresponding measurements were taken
+- colums from 3 to 68: These are the features listed below
+- tBodyAcc-XYZ
+- tGravityAcc-XYZ
+- tBodyAccJerk-XYZ
+- tBodyGyro-XYZ
+- tBodyGyroJerk-XYZ
+- tBodyAccMag
+- tGravityAccMag
+- tBodyAccJerkMag
+- tBodyGyroMag
+- tBodyGyroJerkMag
+- fBodyAcc-XYZ
+- fBodyAccJerk-XYZ
+- fBodyGyro-XYZ
+- fBodyAccMag
+- fBodyAccJerkMag
+- fBodyGyroMag
+- fBodyGyroJerkMag
