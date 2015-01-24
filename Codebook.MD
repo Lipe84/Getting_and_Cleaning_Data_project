@@ -16,5 +16,5 @@ For each record in the dataset it is provided:
 - An identifier of the subject who carried out the experiment.
 
 ## ID vars
-subject - The participant ("subject") ID
-activity - The label of the activity performed when the corresponding measurements were taken
+- subject: The participant ("subject") ID
+- activity: The label of the activity performed when the corresponding measurements were taken
