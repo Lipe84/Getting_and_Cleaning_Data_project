@@ -15,6 +15,7 @@ For each record in the dataset it is provided:
 - Its activity label. 
 - An identifier of the subject who carried out the experiment.
 
+# MY SCRIPT'S CODEBOOK
 ## ID vars
 - subject: The participant ("subject") ID
 - activity: The label of the activity performed when the corresponding measurements were taken
