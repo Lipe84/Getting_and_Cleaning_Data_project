@@ -40,4 +40,12 @@ The script's code is described with a lot of comments, so every step is clear. A
 Here a brief description.
 - starting from Working Directory, it checks if new folder is already present: if not, it will be created.
 - download raw data from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip and unzip it into a new folder "UCI HAR Dataset"
--- www
+- for this project, "Inertial Signals" are not used
+- creating variables starting from raw data, using 6 files ("X" and "y" train, "X" and "y" test, "subject" train and test
+- creating 3 differents df merged by rows (rbind): "Features" "Activity" "Subject"
+- using new names, taken from featuresNames$V2
+- creating last bug "Data" df, by columns
+- using regular expression MEAN and STD to subset the "Data" df
+- transforming the original number linked to Activity (1,2,3,4,5,6) with the correct name (WALKING, ...) and using them in the df "Data"
+- as said in the above paragraph, features' name are replaced with something more comprehensible
+- using "plyr" package to calculate the MEAN for each subject and each activity
