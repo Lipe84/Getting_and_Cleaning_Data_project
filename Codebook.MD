@@ -25,21 +25,12 @@ activity_labels.txt
 file inside raw data file for a better description.
 
 ## FEATURES vars
-Colums from 3 to 68: below features are listed.
-- tBodyAcc-XYZ
-- tGravityAcc-XYZ
-- tBodyAccJerk-XYZ
-- tBodyGyro-XYZ
-- tBodyGyroJerk-XYZ
-- tBodyAccMag
-- tGravityAccMag
-- tBodyAccJerkMag
-- tBodyGyroMag
-- tBodyGyroJerkMag
-- fBodyAcc-XYZ
-- fBodyAccJerk-XYZ
-- fBodyGyro-XYZ
-- fBodyAccMag
-- fBodyAccJerkMag
-- fBodyGyroMag
-- fBodyGyroJerkMag
+Colums from 3 to 68: these are the features obtained from original data (see features.txt file inside raw data folder) only about MEAN and STD value.
+Better names are now shown:
+- "time" replaced by "t"
+- "Accelerometer" replaced by "Acc"
+- "Gyroscope" replaced by "Gyro"
+- "frequency" replaced by "f"
+- "Magnitude" replaced by "Mag"
+- "BodyBody" replaced by "Body"
+
