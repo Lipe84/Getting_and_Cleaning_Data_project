@@ -27,10 +27,11 @@ file inside raw data file for a better description.
 ## FEATURES vars
 Colums from 3 to 68: these are the features obtained from original data (see features.txt file inside raw data folder) only about MEAN and STD value.
 Better names are now shown:
-- "time" replaced by "t"
-- "Accelerometer" replaced by "Acc"
-- "Gyroscope" replaced by "Gyro"
-- "frequency" replaced by "f"
-- "Magnitude" replaced by "Mag"
-- "BodyBody" replaced by "Body"
+- "time" replaces "t"
+- "Accelerometer" replacs "Acc"
+- "Gyroscope" replaces "Gyro"
+- "frequency" replaces "f"
+- "Magnitude" replaces "Mag"
+- "Body" replaces "BodyBody"
 
+Units of measurements are the same of the original raw data
