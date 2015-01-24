@@ -20,10 +20,12 @@ For each record in the dataset it is provided:
 Here you'll find description of the tinydata.txt table.
 ## ID vars
 - col(1) subject: The participant ("subject") ID
-- col(2) activity: The label of the activity performed when the corresponding measurements were taken. See activity_labels.txt file inside raw data file for a better description.
+- col(2) activity: The label of the activity performed when the corresponding measurements were taken. See 
+activity_labels.txt 
+file inside raw data file for a better description.
+
 ## FEATURES vars
 Colums from 3 to 68: below features are listed.
-
 - tBodyAcc-XYZ
 - tGravityAcc-XYZ
 - tBodyAccJerk-XYZ
